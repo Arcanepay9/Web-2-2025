@@ -1,0 +1,20 @@
+@use "vendor/normalize";
+@use "partial/color";
+
+nav{background-color: #414141;
+a{color: color.$primary-color;}
+.primary {
+	background-color:  color.$primary-color;
+}
+.primary-two {
+	background-color:  color.$primary-color;
+}
+.dark-background{
+	background-color: color.$dark-background;
+} 
+.darker-background{
+	background-color: color.$darker-background;
+}
+}
+// Scss Document
+
