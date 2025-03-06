@@ -4,7 +4,7 @@
     font-family: typography.$secondary-font;
     font-weight: 300;
 }
-@use "./typography"
+@use "./typography";
 
 @mixin main-link(){
 	color: #ff6347;
