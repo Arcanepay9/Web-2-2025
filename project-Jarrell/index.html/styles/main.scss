@@ -1,0 +1,39 @@
+@use "vendor/normalize";
+@use "partial/colors";
+@use "partial/mixins";
+@use "partial/typography";
+
+.menu {
+	h2{
+		@include mixins.script-heading()
+   }
+	h3{
+		@include mixins.script-heading()
+	}
+    .main-link {
+		@include mixins.main-link
+	}
+}
+	body{
+	font-family: typography.$secondary-font;
+    }
+
+
+
+nav{background-color: #414141;
+a{color: colors.$primary-color;}
+.primary {
+	background-color:  colors.$primary-color;
+}
+.primary-two {
+	background-color:  colors.$primary-color;
+}
+.dark-background{
+	background-color: colors.$dark-background;
+} 
+.darker-background{
+	background-color: colors.$darker-background;
+}
+}
+// Scss Document
+

@@ -1,12 +1,10 @@
-@use "./typography";
-@use "./colors";
 @mixin script-heading(){
-    color: colors.$primary-two;
+    color: #DB8D33;
     font-size:48px;
     font-family: typography.$secondary-font;
     font-weight: 300;
 }
-
+@use "./typography";
 
 @mixin main-link(){
 	color: #ff6347;
